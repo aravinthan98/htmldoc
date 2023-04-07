@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    background-color: brown;
+}
+
+
+.navi{
+    list-style-type: none;    
+
+} 
+a{
+    text-decoration: none;
+    color: white;
+} 
+
+ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+a{
+    display: block;
+    border: 5px solid royalblue;
+    background-color: royalblue;
+    padding: 2px;
+    text-align: center;
+
+}
+a:hover{
+   
+    background-color: red;
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    ul {
+     display: flex;
+      flex-direction: column;
+      width: fit-content;
+      
+    }
+    a{
+        border: 2px solid black;
+    }
+  }
+  
+
+
